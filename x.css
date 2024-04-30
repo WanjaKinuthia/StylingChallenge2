@@ -1,5 +1,22 @@
 
   
+ 
+  
+   @media screen and(max-width:900px) {
+    #first-Div li{
+      margin-right: 8px;
+    
+
+    }
+    #first-Div{
+      /* width: 100%; */
+    }
+    
+   
+    
+
+    
+   }
   button {
     background-color: white;
     color: orange;
@@ -277,6 +294,27 @@
     font-size: 1.5rem;
    }
   /* Responsive styles for mobile and tablets */
+
+  .new-class {
+     /* Assuming the image path is correct */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 350px;
+  padding: 20px;
+  margin-top: 40px;
+  margin-bottom: -100px;
+  }
+  
+  
+  
+  /* Media query for responsiveness */
+  @media (max-width: 900px) {
+    .new-class {
+      width: 100%; /* Set width to 100% on smaller screens */
+    }
+  }
+  
   
   @media (min-width: 40rem) {
   .toggle-button, .mobile-nav {
@@ -310,5 +348,115 @@
       width: 100%;
   }
     }
+    @media (min-width: 768px) {
+      .toggle-button, .mobile-nav {
+          display: none;
+        }
+      }
+      
+      @media (max-width: 768px) {
+        header img {
+          width: 30%;
+          height: 30%;
+        }
+         .main-nav {
+            display: none;
+          }
+        .content-container, .footer-content {
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+        }
+        aside {
+          width: 100%; 
+          padding-left: 0rem;
+          margin-right: 0;
+        }
+      
+        
+      .tiles-icon {
+        margin-left: 2.6rem;
+      }
+      .sanitary-icon {
+        margin-left: 2.2rem;
+      }
+      
+      .electrical-fittings-icon {
+        margin-left: 1.7rem;
+      }
+      
+      .iron-fittings-icon {
+        margin-left: 2.5rem;
+      }
+      
+      .doors-icon {
+        margin-left: 3.3rem;
+      }
+      
+      .kitchen-and-bath-icon {
+        margin-left: 2.6rem;
+      }
+      
+      .categories hr {
+        width: 0;
+      }
+      
+      input[type="text"] {
+        width: 100%;
+      }
+      
+        .heading {
+          margin-left: 0;
+        }
+        button {
+          width: 80%;
+        }
+        .product-grid {
+          flex-direction: column;
+      }
+      
+      .product-card {
+          width: 100%;
+          margin-bottom: 1rem;
+      }
+      .product-types {
+        font-size: 0.8rem;
+      }
+      
+      .newsletter-section {
+          flex-direction: column;
+          align-items: center;
+      }
+      
+      .newsletter-text {
+          width: 100%;
+      }
+      
+      .newsletter-form {
+          width: 135%;
+          padding-left: 1.2rem;
+      }
+      
+      .copyright-line {
+        margin-left: 2rem;
+      }
+      
+      .footer-final{
+        flex-direction: row wrap;
+      }
+      
+      .footer-final li {
+        margin: 0.5rem;
+        font-size: 0.6rem;
+      }
+      
+      .footer-links {
+        flex-direction: column;
+      }
+      
+      .email-signup {
+        margin-right: 1rem;
+      }
+      }
   
    

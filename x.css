@@ -55,19 +55,19 @@
       color: white;
       font-size: 1rem;
       border: 1px solid white;
-      width: 104%;
+      width: 86%;
     }
   
   .newsletter-country-button {
     display: flex;
     justify-content: space-around;
-    width: 104%;
+    width: 100%;
   }
   
   .newsletter-country-button select {
     appearance: none;
     border-left: 1px solid white;
-    width: 70%;
+    width: 250%;
     border-bottom: 1px solid white;
     border-top: 0;
     background-color: transparent;
@@ -78,7 +78,7 @@
   
   .newsletter-form select {
     margin-top: 0;
-    width: 100%;
+    width: 380%;
     font-size: 1rem;
   
   }
@@ -89,7 +89,7 @@
   }
   .newsletter-form button {
     font-family: "Montserrat", sans-serif;
-    width: 30%;
+    width: 50%;
     font-size: 1rem;
     padding: 1rem 1.1rem;
     background-color: inherit;
@@ -177,7 +177,7 @@
   }
   
   .email-signup button {
-    width: 40%;
+    width: 60%;
     background-color: rgb(19, 18, 18);
     color: white;
     border: none;
@@ -187,6 +187,7 @@
     cursor: pointer;
     margin-bottom: 0.5rem;
     font-size: 0.7rem;
+    
   }
   
   .social-media {
@@ -231,7 +232,7 @@
     color: var(--light-grey-color);
   }
   .copyright-line {
-    margin-left: 68rem;
+    margin-left: 48rem;
   }
   
   .footer-ending div p {

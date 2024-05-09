@@ -301,13 +301,32 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: 350px;
+  height: 250px;
   padding: 20px;
-  margin-top: 40px;
+  margin-top: 2px;
   margin-bottom: -100px;
   }
   
-  
+  /* styling  */
+  .image-with-text {
+    position: relative;
+    margin: 10px;
+    
+  }
+   .text-bottom-left {
+    position: absolute;
+    display: flex;
+    bottom: 10px;
+    left: 15px;
+    color: white; 
+    background-color:white;
+    border: 1px solid white;
+    /* padding: 100px; */
+    min-width: 150px;
+    min-height: 150px;
+
+    padding-left: 5px
+  }
   
   /* Media query for responsiveness */
   @media (max-width: 900px) {
@@ -459,5 +478,125 @@
         margin-right: 1rem;
       }
       }
+  @media (max-width:768px){
+    #new-class2{
+      background-repeat: no-repeat; 
+      background-position: center;
+       background-size: cover; 
+       height: 50px; 
+       width: 50px;
+       padding:2px;
+       margin-top: 40px;
+       margin-bottom: 90px;
+
+
+    }
+    .right{
+      font-size: 1.5 rem;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      
+
+    }
+    #first{
+      margin-bottom: 340px;
+      width: 10%;
+      height:10%;
+
+    }
+    #footers{
+       justify-content: center;
+    }
+    #firstDiv{
+      width: 90%;
+      height:90%;
+    }
+    .tot-text{
+      text-align: center;
+      justify-content: center;
+      font-size: small;
+    }
+    .bg {
+      margin-top: 20px; /* Remove top margin */
+      margin-bottom: 20px; /* Remove bottom margin */
+
+    }
+    #first-section{
+      flex-direction: column;
+     
+    }
+   .bg  img{
+    height: 100%;
+    width: 100%; 
+    }
+    .image-with-text img {
+      /* Add your desired image styles here */
+      width: 40%; /* Example: Set image width to 100% */
+    }
+    .new-class{
+      width:50px;
+      text-align: center;
+
+    }
+    .icons{
+    
+      padding-left: 30px;
+
+    }
+    
+    .image-with-text {
+      position: relative;
+      margin: 10px;
+    }
   
-   
+    .text-bottom-left {
+      position: absolute;
+      bottom: 10px;
+      left: 15px;
+      color: white;
+      background-color: white;
+      border: 1px solid white;
+      min-width: 150px;
+      min-height: 150px;
+      padding-left: 5px;
+    }
+  
+    .container {
+      display: flex;
+      justify-content: center; /* Center the content horizontally */
+      align-items: center; /* Center the content vertically */
+      padding: 20px;
+      border-bottom: 1px solid lightgray;
+    }
+  
+    .icon-and-text {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-left: 20px; /* Adjusted to reduce the huge space */
+    }
+  
+    .icon-and-text h1 {
+      font-size: small;
+      border-bottom: 2px solid orange;
+      padding-bottom: 6px;
+    }
+  
+      
+    
+      
+      
+
+      
+    
+    
+    
+  
+
+  
+
+  
+
+
+
